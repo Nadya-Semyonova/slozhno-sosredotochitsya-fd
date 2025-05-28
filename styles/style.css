@@ -168,9 +168,9 @@
     justify-self: center;
     grid-row-start: 1;
     grid-row-end: auto;
-    block-size: 26px;
-    padding-inline-start: 15px;
+   padding-inline-start: 15px;
   }
+
   .header__theme-menu-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -217,6 +217,7 @@
 @media (width >= 768px) {
   .article-title {
     block-size: 22px;
+    /* peredlat */
   }
   .title-decor {
     block-size: 117px;
@@ -234,6 +235,7 @@
     justify-self: end;
     block-size: 71px;
     inline-size: 491px;
+    /* peredelat */
   }
 
   .title-decor::after {
@@ -337,8 +339,9 @@ main {
   .what-section {
     padding-block-start: 60px;
   }
-  .question-title {
-    inline-size: 236px;
+
+  .question-title-what {
+    padding-inline-end: 492px;
   }
 
   .how-section {
@@ -415,6 +418,8 @@ main {
     grid-row-end: auto;
     inline-size: initial;
     padding-block-end: 0;
+    padding-inline-end: 0;
+    }
   }
 
   .article-bad-multitasking {
@@ -445,7 +450,7 @@ main {
   .article-music-on {
     padding-block-start: 5px;
   }
-}
+
 
 .gallery {
   padding-block-start: 50px;
@@ -549,6 +554,7 @@ img {
 @media (width >= 768px) {
   .footer {
     min-block-size: 1024px;
+    block-size: 100vh;
     margin-inline-start: 20px;
     margin-inline-end: 20px;
   }
@@ -563,7 +569,8 @@ img {
 
 @media (width >=1024px) {
   .footer {
-    block-size: initial;
+    min-block-size: 768px;
+    block-size: 100vh;
   }
   .footer__focus-title {
     padding-inline-start: 255px;
