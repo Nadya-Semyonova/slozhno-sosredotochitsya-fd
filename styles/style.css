@@ -279,8 +279,10 @@ main {
 }
 
 .how-section {
+  grid-template-columns: 315px auto;
   padding-block-start: 50px;
 }
+
 .question-title {
   font-family: var(--font-family);
   color: var(--accent-color);
@@ -443,9 +445,7 @@ main {
     grid-row-end: auto;
   }
 
-  .how-section {
-    grid-template-columns: 315px auto;
-  }
+ 
 
   .article-music-on {
     padding-block-start: 5px;
