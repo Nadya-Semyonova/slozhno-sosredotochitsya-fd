@@ -569,6 +569,11 @@ img {
     padding-inline-start: 255px;
     padding-block-start: 448px;
   }
+
+  .footer {
+    min-block-size: 768px;
+    block-size: 100vh;
+  }
 }
 
 .footer::after {
