@@ -13,6 +13,7 @@
   --accent-color: #ff8dcb;
   --focus-color: #ffc2e6;
   --text-color: #353430;
+  --background-color:#FFF1F7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,7 +22,10 @@
     --accent-color: #ff8dcb;
     --focus-color: #ffc2e6;
     --text-color: #353430;
+    --background-color:#FFF1F7;
+
   }
+  
 }
 
 .theme-light .page {
@@ -58,6 +62,9 @@
 .theme-light .title-decor::after {
   border-inline-start: 1px solid var(--text-color);
   border-block-end: 1px solid var(--text-color);
+}
+.theme-light .article-title {
+  color: var(--text-color);
 }
 
 .theme-light .question-title {
