@@ -11,89 +11,19 @@
   */
   --background-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
+  --hover-color: rgba(50, 49, 45, 0.4);
   --focus-color: #ffc2e6;
-  --text-color: #353430;
-  --background-color:#FFF1F7;
+  --dark-text-color: #353430;
+  --background-color: #fff1f7;
+  --question-title-color: #353430;
+  --light-text-color: #353430;
+  --button-border:transparent;
+  --button-border-light:#353430;
 }
 
-@media (prefers-color-scheme: light) {
-  :root.theme-light {
-    --background-image: url(../images/cover-image-light.png);
-    --accent-color: #ff8dcb;
-    --focus-color: #ffc2e6;
-    --text-color: #353430;
-    --background-color:#FFF1F7;
-
+  .theme-light .rec::before,
+  .decorated-zone::before {
+    display: none;
   }
-  
-}
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-color: var(--background-color);
-  background-image: var(--background-image);
-}
 
-.theme-light .rec::before {
-  display: none;
-}
-
-.theme-light .decorated-zone::before {
-  display: none;
-}
-
-.theme-light .decorated-zone::after {
-  border-inline-end: 1px solid var(--text-color);
-  border-block-start: 1px solid var(--text-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--text-color);
-}
-
-.theme-light .header__theme-menu-button_type_dark {
-  border: none;
-}
-
-.theme-light .header__theme-menu-button_type_light {
-  border: 1px solid var(--text-color);
-}
-
-.theme-light .title-decor::after {
-  border-inline-start: 1px solid var(--text-color);
-  border-block-end: 1px solid var(--text-color);
-}
-.theme-light .article-title {
-  color: var(--text-color);
-}
-
-.theme-light .question-title {
-  color: var(--text-color);
-}
-
-.theme-light .footer::after {
-  border-inline-start: 1px solid var(--text-color);
-  border-block-end: 1px solid var(--text-color);
-}
-
-.theme-light .footer::before {
-  border-inline-end: 1px solid var(--text-color);
-  border-block-start: 1px solid var(--text-color);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  outline: none;
-  border-bottom: 1px solid var(--text-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  border: 1px solid var(--text-color);
-}
-
-.theme-light .link:focus-visible {
-  outline: 1px solid var(--text-color);
-}
-
-.theme-light .link:hover {
-  border-bottom: 1px solid var(--text-color);
-}

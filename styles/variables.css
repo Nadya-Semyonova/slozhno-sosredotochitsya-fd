@@ -5,8 +5,13 @@
 :root {
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
+  --hover-color: rgba(255, 0, 111, 0.4);
   --focus-color: #db00ff;
-  --text-color: #f1b2ce;
+  --dark-text-color: #000028;
+  --light-text-color: #f1b2ce;
   --background-color: #000028;
-  --font-family: IBM Plex Mono, sans-serif;
+  --question-title-color: #ff0070;
+  --font-family: IBM Plex Mono, monospace;
+  --button-border:#ff0070;
+  --button-border-light: transparent;
 }
