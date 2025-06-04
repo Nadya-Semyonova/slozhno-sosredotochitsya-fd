@@ -6,7 +6,6 @@
   font-family: var(--font-family);
   background-image: var(--background-image);
   background-color: var(--background-color); 
- 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -231,7 +230,7 @@
 
 @media (width >= 1024px) {
   .decorated-zone::after {
-    top: 700px;
+    top: 650px;
     left: 20px;
   }
 }
@@ -337,7 +336,7 @@ main {
 
 @media (width >= 1024px) {
   main {
-    padding-block-start: 115px;
+    padding-block-start: 60px;
   }
 
   .question-title-what {
