@@ -46,7 +46,12 @@
   .header {
     min-block-size: 668px;
     margin-block-start: 21.5px;
-    grid-template-rows: min-content min-content min-content;
+    
+
+  }
+  .subtitle {
+    margin-block-start: 84px;
+
   }
 }
 
@@ -184,8 +189,10 @@
 
   .header__title {
     justify-self: start;
-    padding-block-start: 237px;
-    padding-block-end: 114px;
+    padding-block-end: 30px;
+    padding-block-start: 0;
+    align-self: center;
+
   }
 }
 
@@ -230,7 +237,7 @@
 
 @media (width >= 1024px) {
   .decorated-zone::after {
-    top: 650px;
+    top: 700px;
     left: 20px;
   }
 }
@@ -336,7 +343,7 @@ main {
 
 @media (width >= 1024px) {
   main {
-    padding-block-start: 60px;
+    padding-block-start: 40px;
   }
 
   .question-title-what {
