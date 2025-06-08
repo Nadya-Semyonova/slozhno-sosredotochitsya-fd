@@ -39,6 +39,7 @@
     min-block-size: 1024px;
     margin-inline-start: 0;
     margin-inline-end: 20px;
+    margin-block-start: 20px;
   }
 }
 
