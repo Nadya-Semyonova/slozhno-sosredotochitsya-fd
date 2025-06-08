@@ -13,5 +13,9 @@
   --question-title-color: #ff0070;
   --font-family: IBM Plex Mono, monospace;
   --button-border:#ff0070;
-  --button-border-light: transparent;
+  --button-border-transparent:transparent; 
+  
 }
+
+
+

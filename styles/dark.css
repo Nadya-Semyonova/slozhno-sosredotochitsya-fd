@@ -18,12 +18,10 @@
   --background-color: #000028;
   --question-title-color: #ff0070;
   --button-border: #ff0070;
-  --button-border-light: transparent;
+  --button-border-transparent: transparent;
 }
 
-.theme-dark .rec::before {
+.theme-dark .rec {
   display: block;
 }
-.theme-dark .decorated-zone::before {
-  display: block;
-}
+
