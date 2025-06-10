@@ -7,9 +7,14 @@
 }
 
 body {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; 
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+ 
 }
 
 h1,
@@ -41,4 +46,3 @@ a {
   line-height: inherit;
 }
 
-/* * { outline: 1px solid orange; }  */
