@@ -18,8 +18,8 @@
   --question-title-color: #353430;
   --light-text-color: #353430;
   --button-border:#353430;
-  --button-border-transparent:transparent; 
-}
+  --button-border-transparent: transparent; 
+  }
 
   .theme-light .rec {
     display: none;
@@ -37,10 +37,8 @@
       --light-text-color: #353430;
       --button-border:#353430;
       --button-border-transparent:transparent; 
-  
-  
-  
-    } 
+  } 
+
   .rec {
     display: none;
   }
