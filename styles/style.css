@@ -374,11 +374,15 @@ main {
 .gallery {
   padding-block-start: 50px;
 }
-img {
+
+.image {
+  box-sizing: border-box;
   object-fit: cover;
   object-position: center;
+  block-size: 100%;
   inline-size: 100%;
 }
+
 
 .pictures-container {
   display: grid;
@@ -393,12 +397,6 @@ img {
     padding-block-start: 0;
   }
 
-  .image {
-    box-sizing: border-box;
-    object-fit: cover;
-    object-position: center;
-    block-size: 100%;
-  }
 
   .pictures-container {
     display: grid;
